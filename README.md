@@ -19,7 +19,7 @@ Start using traffic analyzer as a developer with the given
 
 ## Docker image
 You can also use the docker image published on [Docker Hub](https://hub.docker.com/r/anjohsr/traffic-analyzer) and
-    directly mount an volume into the container:  
+    directly mount a volume into the container:  
 docker run -d -p 8000:8000 -p 8089:8089 -e SPLUNK_PASSWORD=*AnJo-HSR* -v /home/pcaps:/tmp/pcaps-mounted
     anjohsr/traffic-analyzer
   
